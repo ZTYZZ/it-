@@ -1,0 +1,51 @@
+* {
+	margin:0;
+}
+html {
+	background-color: #68cdd5;
+}
+.wrap {
+	background-color:
+	margin:0 auto;
+	
+}
+.wrap .logo {
+	text-align:center;
+	margin:0 10%;
+	color: white;
+}
+
+.wrap .logo img {
+	width:30%;
+	height:60%;
+	margin:10% auto;
+}
+.wrap .logo p {
+	text-align:justify;
+	margin:15% auto;
+}
+.wrap .return {
+	width:;
+	height:;
+	
+
+}
+
+.wrap .bottom .icon1 {
+	float:left;
+	margin-left:10%;
+	width:40%;
+}
+
+.wrap .bottom .icon1 img {
+	width:40%;
+
+}
+.wrap .bottom .icon2 {
+	float:right;
+	margin-right:10%;
+	width:40%;
+}
+.wrap .bottom .icon2 img {
+	width:40%;
+}
