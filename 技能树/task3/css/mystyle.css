@@ -16,8 +16,7 @@ html {
  .return img{
 	
 	margin:5%;
-	width:10%;
-	height:10vw;
+	width:2rem;
 }
 
 /*主页面logo设计*/
@@ -27,8 +26,7 @@ html {
 }
 
 .wrap .logo img {
-	width:30%;
-	height:60%;
+	width:8rem;
 	margin:10% auto;
 }
 
