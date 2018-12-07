@@ -1,0 +1,31 @@
+/*控制字体*/
+html {
+	font-size:10px;
+}
+/*去除页面空隙*/
+body {
+	margin:0;
+}
+/*顶部的栏*/
+header {
+	background-color:#5fc0cd;
+	color: white;
+	font-size:1.5rem;
+	height:3rem;
+}
+header div {
+	display:inline-block;
+	margin:0.325rem 0;
+}
+header .sign-up {
+	float:left;
+	
+}
+
+header .log-in {
+	text-align:center;
+}
+
+header .turn-off {
+	float:right;
+}
