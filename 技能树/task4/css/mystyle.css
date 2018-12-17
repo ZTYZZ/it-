@@ -17,6 +17,6 @@ header {
 	align-items: center;
 }
 
-header:nth-child(2) {
+header div:nth-child(2) {
 	font-size: 3.6rem;
 }
