@@ -1,0 +1,54 @@
+/*清除页面空隙*/
+
+html {
+	font-family:"黑体";
+}
+body {
+	margin:0;
+}
+
+/*导航栏的设计*/
+header {
+	height: 44px;
+	background-color: #5fc0cd;
+	text-align: center;
+	
+}
+
+/*返回按钮的设计*/
+
+header .return-button {
+	float:left;
+	margin: 7px 5px;
+	height: 30px;
+}
+
+/*标题的垂直居中*/
+header .title {
+	margin: 0;
+	color: white;
+	line-height: 44px; /*垂直居中*/
+} 
+
+
+/*个人信息栏 背景信息*/
+.personality {
+	background: url("../images/background_02.png") no-repeat;
+	background-size: 100vw 294px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+/*个人信息兰 头像*/
+.personality .circle {
+	border-radius: 300px;
+	background-color: #efefef;
+}
+.personality .circle img {
+	height: 133px;
+	margin:0 10%;
+}
+.personality .information {
+	margin: 0 10%;
+}

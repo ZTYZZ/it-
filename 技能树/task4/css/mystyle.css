@@ -73,6 +73,7 @@ form input {
 	border:0;
 	font-size: 3.2rem;
 	flex-grow: 1;
+	outline:none;
 }
 
 
@@ -93,6 +94,7 @@ form input {
 	height:0;
 	display:block;
 	visibility: hidden;
+
 }
 
 
