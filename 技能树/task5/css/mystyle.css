@@ -33,11 +33,12 @@ header .title {
 
 /*个人信息栏 背景信息*/
 .personality {
-	background: url("../images/background_02.png") no-repeat;
-	background-size: 100vw 294px;
+	height: 150px;
+	background: url("../images/background_02.png") center no-repeat;
+	background-size: 100% 100%;
 	display: flex;
 	align-items: center;
-	color: grey;
+	color: white;
 }
 
 /*个人信息兰 头像*/
@@ -56,4 +57,76 @@ header .title {
 }
 .personality .information {
 	margin: 0 2%;
+}
+
+/*技能介绍栏*/
+.skill {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skill div>p {
+	display: inline-block;
+	margin-bottom: 20px;
+	color: #999999;
+	margin-right: 50px;
+}
+
+.skill div>span {
+	display:inline-block;
+	width:50%;
+}
+.skill .good .skill-show{
+	margin:20px 0;
+}
+
+.skill .good .skill-show span{
+	margin-right: 50px;
+	display: inline;
+}
+.skill .good img {
+	width:15px;
+	height: 15px;
+	margin-right: 10px;
+}
+.skill .good p {
+	color: black;
+}
+
+.skill .cost span {
+	color: red;
+}
+.skill .self-introduce{
+	display: flex;
+	align-items: center;
+}
+
+/*底部状态栏*/
+.bottom {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.bottom a {
+	display: inline-block;
+	border:1px solid black;
+	border-radius: 3px;
+	min-width: 20%;
+	padding: 10px 10%;
+	text-align: center;
+	/*去掉默认样式 */
+	text-decoration: none;
+	color: white;
+
+}
+
+.bottom a.call{
+	background-color: #5fc0cd;
+	border:1px solid #5fc0cd;
+}
+.bottom a.message {
+	color: #5fc0cd;
 }
