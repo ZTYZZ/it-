@@ -37,18 +37,23 @@ header .title {
 	background-size: 100vw 294px;
 	display: flex;
 	align-items: center;
-	color: white;
+	color: grey;
 }
 
 /*个人信息兰 头像*/
 .personality .circle {
-	border-radius: 300px;
+	height:60px;
+	width: 60px;
+	border-radius: 30px;
 	background-color: #efefef;
+	overflow: hidden;
+	margin: 0 2%;
 }
 .personality .circle img {
-	height: 133px;
-	margin:0 10%;
+	height: 50px;
+	width: 60px;
+	
 }
 .personality .information {
-	margin: 0 10%;
+	margin: 0 2%;
 }
