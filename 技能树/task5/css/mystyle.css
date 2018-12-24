@@ -45,19 +45,20 @@ header .title {
 .personality .circle {
 	height:60px;
 	width: 60px;
-	border-radius: 30px;
+	border-radius: 60px;
 	background-color: #efefef;
 	overflow: hidden;
 	margin: 0 2%;
 }
 .personality .circle img {
-	height: 50px;
+	height: 60px;
 	width: 60px;
+
 	
 }
-.personality .information {
+/*.personality .information {
 	margin: 0 2%;
-}
+}*/
 
 /*技能介绍栏*/
 .skill {
