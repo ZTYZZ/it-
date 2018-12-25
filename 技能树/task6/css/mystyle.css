@@ -1,0 +1,46 @@
+/*全页面的设计 */
+html {
+	font-family: "黑体";
+}
+/*去除body的空隙*/
+body {
+	margin:0;
+
+}
+
+/*header 顶端导航栏*/
+header {
+	height: 44px;
+	background-color: #5fc0cd;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	line-height: 44px;
+}
+
+header span.employer {
+	padding: 10px;
+	background-color: #55a8b3;
+	/*border: 1px solid #000;*/
+	border-radius: 5px;
+}
+header span.nurse {
+	padding: 10px;
+	background-color: #fff;
+	color: #5fc0cd;
+	border-radius: 5px;
+}
+
+/*下拉菜单的选择*/
+.selection {
+	width: 100%;
+}
+.selection div {
+	display: inline-block;
+	text-align: center;
+	border-right: 0.5px solid #e1e5e7;
+	padding: 0 auto;
+}
+.selection div ul {
+	display: none;
+}
